@@ -1,12 +1,28 @@
-# Data Science For Managers - Code Bank
+# The Data Science For Managers (DSFM) Code Bank
 
 Source:  [https://github.com/dsfm-org/code-bank.git](https://github.com/dsfm-org/code-bank.git)  
-License: [MIT License](https://opensource.org/licenses/MIT). See open source [license](LICENSE) in the Code Bank repository. 
+License: [MIT License](https://opensource.org/licenses/MIT).  
+
+The __Data Science for Managers Network__ partners with leading universities and organizations around the world to provide high-quality __boot camps__, __seminars__, and __workshops__ in Data Science. We open source our demos, exercises, illustrations, projects, and workshops for use by all parties.
+
+![DSFM Participants](images/participants.jpg)
+
+DSFM is currently running at two locations:
+
+  * __Swiss Institute of Technology - EPFL__  
+
+    Join DSFM at the École Polytechnique Fédérale de Lausanne (EPFL), part of the Swiss Federal Institute of Technology and one of the leading technical centers in Europe. EPFL is home to over 350 laboratories and research groups, each working at the forefront of science and technology.  
 
 
-## The DSFM Open Sourced Initiative
+  * __University of Washington - GIX__
 
-The [Data Science for Managers Program](https://www.dsfm.org) open sources for the creative commons, all of code used in the demos, exercises, illustrations, projects, and workshops of a participating DSFM program. Subject to the [MIT License](LICENSE), you may freely access, download, clone, reuse, and potentially collaborate on the materialsin [this repoasitory](https://github.com/dsfm-org/code-bank.git). Please see the [contributing](CONTRIBUTING.md) page for more information on how to contribute to this open source initiative.  
+    Join DSFM at the Global Innovation Exchange (GIX) in the Seattle, Washington area. Founded by the University of Washington, Tsinghua University, and Microsoft, GIX is a global collaboration between leading academic and cross-sector partners. Courses will be presented at the state-of-the-art Steve Ballmer building in Bellevue, WA.  
+
+
+
+## The DSFM Open Source Initiative
+
+The [Data Science for Managers Network](https://www.dsfm.org) open sources for the creative commons, all of code used in the demos, exercises, illustrations, projects, and workshops of a participating DSFM program. Subject to the [MIT License](LICENSE), you may freely access, download, clone, reuse, and potentially collaborate on the materialsin [this repoasitory](https://github.com/dsfm-org/code-bank.git). Please see the [contributing](CONTRIBUTING.md) page for more information on how to contribute to this open source initiative.  
 
 ![Open Source Initiative](images/open-source.png)  ![Creative Commons](images/creative-commons.png)</center>
 
@@ -53,13 +69,12 @@ Code appearing in the directories above are complete and ready for instruction. 
     `git clone https://github.com/dsfm-org/code-bank.git`
 
 
-
-## Execution  
+## Code Execution  
 
 Most of the code is included in [Jupyter Lab](https://jupyter.org/) notebooks that will run (locally or remotely) through a standard web-browser. Therefore, most any kind of computer will work (even a Chromebook) provded that the back-end Jupyter Server is setup and configured with Python 3.x and [the requirements](REQUIREMENTS.txt). Some advanced examples may require a computer with additional memory, processors, GPUs/TCUs, a Spark cluster, or other resources to run - as indicated in each file. For that reason, we recommend students to use a virtual machine (VM) to run their code. We provide instructions below as to how to do so on the [Google Compute Platform](https://cloud.google.com/).
 
 
-## Google Cloud
+### Google Cloud
 
 You can use the DSFM Code Bank on any computer with the requirements installed, as described above. Many students, however, prefer to use a virtual machine to run the code on a remote computer that is more powerful than their local computer. Virtual Machines may also be started, stopped, and backed-up remotely - as needed. You can use any virtual machine that can host a Jupyter Server interface; however, we typically use a VM on the Google Cloud Platform.
 
@@ -188,7 +203,6 @@ Then clone the repository by executing the following command into the terminal:
 
 `git clone https://github.com/dsfm-org/code-bank.git`
 
+------
 
-### You are Ready to Go!
-
-You now are ready to start working with the Code Bank on a Google VM.
+# You are Ready to Go!
