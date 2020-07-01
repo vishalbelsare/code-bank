@@ -1,15 +1,41 @@
-# DSFM Code Bank - Readme
+# Data Science For Managers - Code Bank
 
 Source:  [https://github.com/dsfm-org/code-bank.git](https://github.com/dsfm-org/code-bank.git)  
 License: [MIT License](https://opensource.org/licenses/MIT). See open source [license](LICENSE) in the Code Bank repository. 
 
 
-## Overview
+## The DSFM Open Sourced Initiative
 
-The [Data Science for Managers Program](https://www.dsfm.org) open sources, under an [MIT License](LICENSE), all of code used in the demos, exercises, illustrations, projects, and workshops of a participating DSFM program. You may access, download, clone, and potentially collaborate on these materials by contributing to the [DSFM GitHub Code Bank](https://github.com/dsfm-org/code-bank.git) repository. Please see [contributing](CONTRIBUTING.md) for more information on how to contribute to this open source initiative. 
+The [Data Science for Managers Program](https://www.dsfm.org) open sources for the creative commons, all of code used in the demos, exercises, illustrations, projects, and workshops of a participating DSFM program. Subject to the [MIT License](LICENSE), you may freely access, download, clone, reuse, and potentially collaborate on the materialsin [this repoasitory](https://github.com/dsfm-org/code-bank.git). Please see the [contributing](CONTRIBUTING.md) page for more information on how to contribute to this open source initiative.  
 
 ![Open Source Initiative](images/open-source.png)  ![Creative Commons](images/creative-commons.png)</center>
 
+
+The Code Bank is organized into the following types of content:
+
+
+  * __Illustrations__  
+
+    Illustrations are short portions of programming code to demonstrate a concept covered in a lecture. Each illustration may take 5 to 10 minutes to complete. The emphasis when showing an illustrations is not on the code, syntax, or libraries used - but rather on the concepts that are being taught. When showing an illustration, the idea is to jump over the code and show the result(s) of what the code does.
+
+  * __Demos__  
+
+    Demonstrations cover a topic in more depth than an illustration; here, there is more emphasis on the code, syntax, and libraries that are being used. Each demo generally takes 45 to 90 minutes to complete. The emphasis in a demo is to walk the students through an extended example, going step-by-step, so they see a complete example of solving a particular problem.  
+
+  * __Exercises__  
+
+    Exercises require students to solve short problems on their own. Exercises do not require long logical chains to complete. The emphasis of an exercise is to push students to look through other code that they have covered elsewhere in DSFM (say in Demos and Illustrations) in order to find snippets of code that they can re-purpose to solve a new problem.
+
+ * __Projects__  
+
+    Projects asks students to work through an entire Data Science application. Projects do not require students to program all of it (doing so would not be feasible during the available time in boot camp courses); rather, projects focus attention on discrete portions of code to be completed, while the missing piece is embedded within a longer chain/logical progression of code. 
+
+  * __Workshops__  
+
+    Whereas code from the Illustrations, Demos, Exercises and Projects can be used 'a la carte' following the needs of a particular course of instruction, the coding examples and notebooks for each workshop are intended to be used in concert to cover a particular topic or application in depth.
+
+
+Code appearing in the directories above are complete and ready for instruction. Code in raw development may appear in the **_alpha/** directory, and code in beta testing will appear in the **_beta/** directory.
 
 
 ## Installation
@@ -18,25 +44,28 @@ The [Data Science for Managers Program](https://www.dsfm.org) open sources, unde
 
     Download an install [Anaconda Python 3.7](https://www.anaconda.com/download/).
 
-2. Install the Python modules listed in requirements.txt.
+2. Install the Python [requirements](REQUIREMENTS.txt).
 
     `pip install -r requirements.txt`  
 
-3. Clone the DSFM Code Bank from GitHub.
+3. Clone the Code Bank.
 
-    `git clone https://github.com/datascienceformanagers/dsfm-code-bank.git`
-
-
-## Execution
-
-Most of the code is written to execute in a [Jupyter Lab](https://jupyter.org/) notebook through a standard web-browser. Therefore, most any kind of computer will work (even a Chromebook) provded that the back-end Jupyter Server is setup and configured with Python 3.x and [the requirements](REQUIREMENTS.txt). The more advanced programs may require a computer with additional memory, processors, GPUs/TCUs, a Spark cluster, or other resources as indicated in the file. For that reason, we recommend students to provision and use a virtual machine (VM) for running their code remotely. We provide instructions below as to how to do so on the [Google Compute Platform](https://cloud.google.com/).
+    `git clone https://github.com/dsfm-org/code-bank.git`
 
 
-#### Running the Code Bank on a VM on Google Cloud
 
-You can use the DSFM Code Bank on any computer where you have installed it as described above. Many students, however, prefer to use the Code Bank on a virtual machine running remotely that may be more powerful than their local computer, and/or which can be started/stopped/backed-up and so on remotely. To setup a VM on the Google Cloud Platform, follow the instructions below. You can use a VM on another platform by modifiying the instructions as needed.
+## Execution  
 
-#### Step 1: Create an Google Cloud Platform account.  
+Most of the code is included in [Jupyter Lab](https://jupyter.org/) notebooks that will run (locally or remotely) through a standard web-browser. Therefore, most any kind of computer will work (even a Chromebook) provded that the back-end Jupyter Server is setup and configured with Python 3.x and [the requirements](REQUIREMENTS.txt). Some advanced examples may require a computer with additional memory, processors, GPUs/TCUs, a Spark cluster, or other resources to run - as indicated in each file. For that reason, we recommend students to use a virtual machine (VM) to run their code. We provide instructions below as to how to do so on the [Google Compute Platform](https://cloud.google.com/).
+
+
+## Google Cloud
+
+You can use the DSFM Code Bank on any computer with the requirements installed, as described above. Many students, however, prefer to use a virtual machine to run the code on a remote computer that is more powerful than their local computer. Virtual Machines may also be started, stopped, and backed-up remotely - as needed. You can use any virtual machine that can host a Jupyter Server interface; however, we typically use a VM on the Google Cloud Platform.
+
+Follow the instructions below to setup your own virtual machine at Google. Google now also offers ready-to-go VMs for data science projects - you can use a preconfigured machine if it meets your needs. The follow instructions are helpful if you want to set up a particular type of machine for your project.
+
+#### Step 1: Create an account.  
 
 Start a [Google Cloud Platform](https://cloud.google.com/) (GCP) account and log into your console.
 
@@ -48,7 +77,7 @@ From the main dashboard, create a new GCP project.
 
 ![optional caption text](images/newproject.png)
 
-#### Step 3: Create and configure a virtual machine.
+#### Step 3: Start a virtual machine.
 
 Create a new virtual machine (VM) by clicking on **Main Menu -> Compute Engine -> VM instances** and Create a new instance. Configure the location, hardware specifications (CPU / GPU, RAM, Hard Disk), Operating System, and other settings of the machine when you create it. The price of the machine per month is displayed on the right panel.
 
@@ -60,7 +89,7 @@ You will want to set an static external IP address for your VM so that you can a
 
 ![optional caption text](images/staticip.png)
 
-#### Step 5: Change the firewall.
+#### Step 5: Configure the firewall.
 
 By default, external traffic to your virtual machine will be blocked, so you will need to enable external access to your instance through port 5000 and the TCP protocol.
 
@@ -68,13 +97,13 @@ To enable such access, click on the **VPC network -> Firewall rules** from the m
  
 ![optional caption text](images/firewallrule.png)
  
-#### Step 6: Start your virtual machine and access it through SSH.
+#### Step 6: Start your VM and login with SSH.
 
 Select your machine from **Main Menu -> Compute Engine -> VM instances** and start it. Once it is up and running, you can then access the VM through an SSH terminal by clicking on the SSH option listed with the machine.
 
 ![optional caption text](images/ssh.png)
 
-#### Step 7: Install Anaconda Python 3.7 and supporting modules.
+#### Step 7: Install Anaconda Python 3.7.
 
 As your VM is probably running Linux, you may need to install Anaconda Python manually. The following instructions worked for us 
 	
