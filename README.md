@@ -7,7 +7,7 @@ The __Data Science for Managers Network__ partners with leading universities and
 
 ![DSFM Participants](images/participants.jpg)
 
-DSFM is currently running at two locations:
+DSFM is currently offered at two locations:
 
   * __Swiss Institute of Technology - EPFL__  
 
