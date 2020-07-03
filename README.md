@@ -58,15 +58,16 @@ Code appearing in the directories above are complete and ready for instruction. 
 
 1. Install Python 3.7.
 
-    Download an install [Anaconda Python 3.7](https://www.anaconda.com/download/).
+    Download and install [Anaconda Python 3.7](https://www.anaconda.com/download/).
 
-2. Install the Python [requirements](REQUIREMENTS.txt).
-
-    `pip install -r requirements.txt`  
-
-3. Clone the Code Bank.
+2. Clone the Code Bank.
 
     `git clone https://github.com/dsfm-org/code-bank.git`
+    
+3. Install the Python [requirements](REQUIREMENTS.txt).
+
+    `cd code-bank`
+    `pip install -r REQUIREMENTS.txt`  
 
 
 ## Code Execution  
