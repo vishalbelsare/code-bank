@@ -37,9 +37,9 @@ If a contribution requires a particularly unusual environment, then consider dev
 
 All contributions to the Code Bank should be bundled together into one directory: 
 
-  * Include a copy of the DSFM Code Bank License in the directory
+  * Include a copy of the DSFM Code Bank License in the directory.
   
-  * Include a subdirectory called data/ with all of your required data (or include code to fetch your data as needed from with your notebook)   
+  * Include a subdirectory called data/ with all of your required data (or include code to fetch your data as needed from with your notebook).   
   
   * Include a `requirements.txt` file with all of the Python modules required by your program. Requirements should auto-install with `pip install` - or otherwise prepare detailed instructions at the top of your notebook to explain how to setup the environment. We will merge your requirements into a global `REQUIREMENTS.txt` file for the Code Bank overall.
 
