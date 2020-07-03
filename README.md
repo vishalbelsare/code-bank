@@ -67,6 +67,7 @@ Code appearing in the directories above are complete and ready for instruction. 
 3. Install the Python [requirements](REQUIREMENTS.txt).
 
     `cd code-bank`
+    
     `pip install -r REQUIREMENTS.txt`  
 
 
