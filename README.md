@@ -1,19 +1,9 @@
-# The DSFM Code Bank  
-
-### ... for the Data Science for Managers Program (DSFM)
-
-  * Website:  [https://www.dsfm.org](https://www.dsfm.org)  
-  
-  * GitHub:   [https://github.com/dsfm-org/code-bank.git](https://github.com/dsfm-org/code-bank.git)
-  
-  * License:  [MIT License](https://opensource.org/licenses/MIT)
+# Data Science for Managers – Code Bank  
 
 ![DSFM Participants](images/participants.jpg)
 
 
-## Data Science Courses
-
-The __Data Science for Managers Network__ partners with universities and organizations around the world to provide high-quality boot camps, seminars, and workshops in Data Science. 
+__Data Science for Managers__ partners with universities and organizations around the world to provide high-quality boot camps, seminars, and workshops in Data Science. 
 
 __DSFM__ courses are currently offered at:
 
@@ -26,10 +16,13 @@ __DSFM__ courses are currently offered at:
 
     Join DSFM at the Global Innovation Exchange (GIX) in the Seattle, Washington area. Founded by the University of Washington, Tsinghua University, and Microsoft, GIX is a global collaboration between leading academic and cross-sector partners. Courses will be presented at the state-of-the-art Steve Ballmer building in Bellevue, WA.  
 
+  * For more information on DSFM, please visit __[https://www.dsfm.org](https://www.dsfm.org)__
 
-## Organization
+## Code Bank Materials
 
-The Code Bank is organized into the following types of content. All code is complete and ready for execution (although code in development may appear in the **_beta/** directory.
+The DSFM program provides open access to the __Code Bank__ at [https://github.com/dsfm-org/code-bank.git](https://github.com/dsfm-org/code-bank.git) under a free [MIT License](https://opensource.org/licenses/MIT).
+
+The Code Bank is organized into the following folders. All code is ready for execution, with the exception that code in the **_beta/** directory is still in review and testing.
 
 
    * __Illustrations__  
@@ -53,15 +46,7 @@ The Code Bank is organized into the following types of content. All code is comp
       Whereas code from the Illustrations, Demos, Exercises and Projects can be used _a la carte_ to meet the needs of a particular course of instruction, the materials for a workshop combine as a set to cover a particular topic or application in depth.
 
 
-## Open Source Initiative
-
-The [Data Science for Managers Network](https://www.dsfm.org) distributes all of code used in DSFM demos, exercises, illustrations, projects, and workshops for free use by the creative commons. Under a free [MIT License](LICENSE), you may access, download, clone, reuse, and collaborate on all of the materials in [this repository](https://github.com/dsfm-org/code-bank.git). Please see the [contributing](CONTRIBUTING.md) page for more information about how to contribute back to this initiative.  
-
-![Open Source Initiative](images/open-source.png)  ![Creative Commons](images/creative-commons.png)</center>
-
-
-
-## Installation
+## Installation & Execution
 
 1. Install Python 3.7.
 
@@ -77,8 +62,17 @@ The [Data Science for Managers Network](https://www.dsfm.org) distributes all of
     
     `pip install -r REQUIREMENTS.txt`  
 
+4. Execution  
 
-## Execution  
+      Most of the code in the __Code Bank__ runs in [Jupyter Lab](https://jupyter.org/) notebooks. Most notebooks can be run locally (or remotely) on a standard computer with Python 3.x and a basic Anaconda Data Science environment ([see requirements](REQUIREMENTS.txt)). A few advanced examples, however, may require additional memory, processors, GPUs/TCUs, a Spark cluster, or other resources to run. If additional resources are required, it should be noted in the file. 
 
-Most of the code is included in [Jupyter Lab](https://jupyter.org/) notebooks that will run (locally or remotely) through a standard web-browser. Therefore, most any kind of computer will work (even a Chromebook) provded that the back-end Jupyter Server is setup and configured with Python 3.x and [the requirements](REQUIREMENTS.txt). Some advanced examples may require a computer with additional memory, processors, GPUs/TCUs, a Spark cluster, or other resources to run - as indicated in each file. For that reason, we recommend students to use a virtual machine (VM) to run their code. We provide instructions below as to how to do so on the [Google Compute Platform](https://cloud.google.com/).
+      We often recommend that students use a virtual machine (VM) to run their code. We provide an additional `readme` file in the __vms/__ to help you set up a VM on the [Google Compute Platform](https://cloud.google.com/).
+
+## The DSFM Code Bank is an Open Source Initiative !
+
+The [Data Science for Managers Network](https://www.dsfm.org) distributes all of code used in DSFM demos, exercises, illustrations, projects, and workshops for free use by the creative commons. You may access, download, clone, edit, reuse, and collaborate on all of the materials in [this repository](https://github.com/dsfm-org/code-bank.git) under a free [MIT License](LICENSE). Please see the [contributing](CONTRIBUTING.md) page if you would like to contribute back to this initiative.  
+
+![Open Source Initiative](images/open-source.png)  ![Creative Commons](images/creative-commons.png)</center>
+
+
 

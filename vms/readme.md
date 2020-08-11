@@ -1,12 +1,20 @@
-# Virtual Machines
+# Virtual Machines on Google Cloud
 
-### Google Cloud
+You can use the DSFM Code Bank on any computer with the necessary requirements. Many students, however, prefer to use a virtual machine to run the code because that computer might be more powerful, more reliable, and/or runin the background. Virtual Machines may also be started, stopped, and backed-up remotely - as needed. 
 
-You can use the DSFM Code Bank on any computer with the requirements installed, as described above. Many students, however, prefer to use a virtual machine to run the code on a remote computer that is more powerful than their local computer. Virtual Machines may also be started, stopped, and backed-up remotely - as needed. You can use any virtual machine that can host a Jupyter Server interface; however, we typically use a VM on the Google Cloud Platform.
+You can use any virtual machine that can host a Jupyter Server interface; however, we typically use a VM on the Google Cloud Platform.
 
-Follow the instructions below to setup your own virtual machine at Google. Google now also offers ready-to-go VMs for data science projects - you can use a preconfigured machine if it meets your needs. The follow instructions are helpful if you want to set up a particular type of machine for your project.
+## The Easy Way
 
-#### Step 1: Create an account.  
+The easiest way to start and access a Google VM for Data Science is to start an account for the [Google Cloud](cloud.google.com), go to the [Google cloud console](https://console.cloud.google.com/), select the [AI Platform Dashboard](https://console.cloud.google.com/ai-platform/dashboard), start a project, and then start a notebook instance. Complete instructions are available at Google.
+
+![optional caption text](images/ai_notebooks.png)
+
+## A Harder (but more permanent) Way
+
+Below, we provide step-by-step directions for setting up and configuring a virtual machine that you may keep for the long term and come back to, over and over. Often the long process below is not really necessary - and the fast and simple approach above works just fine. These instructions are for advanced students with special requirements.
+
+#### Step 1: Create an account at Google Cloud.  
 
 Start a [Google Cloud Platform](https://cloud.google.com/) (GCP) account and log into your console.
 
