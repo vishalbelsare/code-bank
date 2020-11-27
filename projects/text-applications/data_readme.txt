@@ -1,4 +1,4 @@
-get training data from following addresses using wget/curl:
+Download training data from following addresses using wget/curl:
 
-application data : https://storage.googleapis.com/dsfm/application/application_data.csv.zip
-resources data : https://storage.googleapis.com/dsfm/application/resource_data.csv.zip
+Application data : https://storage.googleapis.com/dsfm-datasets/text-applications/application_data.csv.zip
+Resources data : https://storage.googleapis.com/dsfm-datasets/text-applications/resource_data.csv.zip
