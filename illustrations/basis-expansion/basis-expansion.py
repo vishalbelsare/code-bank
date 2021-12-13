@@ -1,14 +1,15 @@
-""" DSFM Illustration: Basis expansion
+""" -------------------------------------------------------------------------------------------------
+    Basis Expansion
     -------------------------------------------------------------------------------------------------
     
-    Creator: Data Science for Managers - EPFL Program - https://www.dsfm.ch
-    Source:  https://github.com/dsfm-org/code-bank.git
-    License: MIT License (https://opensource.org/licenses/MIT) - see LICENSE in Code Bank repository. 
+    Source:  https://github.com/d-insight/code-bank.git
+    License: MIT License - https://opensource.org/licenses/MIT 
     
     OVERVIEW:
     
     The following module executes the same illustration as the basis-expansion notebook, 
     but allows for interactive rotation of the graphs.
+    -------------------------------------------------------------------------------------------------
 
 """
 

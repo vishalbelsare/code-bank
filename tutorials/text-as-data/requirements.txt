@@ -1,0 +1,16 @@
+pdfminer.six
+pandas
+numpy
+matplotlib
+seaborn
+spacy
+tqdm
+texthero
+scikit-learn
+pyldavis
+gensim
+flair
+torch
+scipy
+rich
+plotly>=4.2.0

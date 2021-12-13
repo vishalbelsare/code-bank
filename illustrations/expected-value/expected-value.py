@@ -1,9 +1,9 @@
-""" DSFM Illustration: Basis expansion
+""" -------------------------------------------------------------------------------------------------
+    Expected Value
     -------------------------------------------------------------------------------------------------
     
-    Creator: Data Science for Managers - EPFL Program - https://www.dsfm.ch
-    Source:  https://github.com/dsfm-org/code-bank.git
-    License: MIT License (https://opensource.org/licenses/MIT) - see LICENSE in Code Bank repository. 
+    Source:  https://github.com/d-insight/code-bank.git 
+    License: MIT License - https://opensource.org/licenses/MIT 
     
     Sections of code adapted from: https://matplotlib.org/gallery/widgets/slider_demo.html
 
@@ -12,6 +12,7 @@
     The following module executes much of the same illustration as the expected-value notebook, 
     but allows for interactive setting of the cost structure of False Positivea and False Negatives.
 
+    -------------------------------------------------------------------------------------------------
 """
 
 import numpy                 as np
