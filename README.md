@@ -8,7 +8,7 @@ The [TIS Lab at EPFL](https://tis.epfl.ch) distributes the [D-Insight Code Bank]
 
 ## Overview
 
-The Code Bank is organized into the following folders. All code is ready for execution, with the exception that code in the **_beta/** directory is still in review and testing.
+The __D-Insight Code Bank__ is organized into the following folders. All code is ready for execution, except that code in the **_development/** and **_testing/** directories are in review.
 
 
    * __Illustrations__  
