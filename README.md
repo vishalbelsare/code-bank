@@ -1,6 +1,6 @@
 # D-Insight Code Bank  
 
-The [TIS Lab at EPFL](https://tis.epfl.ch) distributes the [D-Insight Code Bank](https://github.com/d-insight/code-bank/) under an open [MIT License](https://opensource.org/licenses/MIT). You may access, download, clone, edit, reuse, and collaborate on these materials without restriction.  
+The [TIS Lab at EPFL](https://tis.epfl.ch) distributes the [D-Insight Code Bank](https://github.com/d-insight/code-bank/) under an open [MIT License](https://opensource.org/licenses/MIT). You may download, clone, edit, and reuse these materials without restriction.  
 
 ![](mit-license.png) ![Open Source Initiative](open-source.png)  ![Creative Commons](creative-commons.png)
 
