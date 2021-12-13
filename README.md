@@ -1,6 +1,14 @@
 # Data Science Code Bank  
 
-The [TIS Lab at EPFL](https://tis.epfl.ch) provides open-sourced access to this [Data Science Code Bank](https://github.com/KenYounge/data-science-code-bank.git) under an [MIT License](https://opensource.org/licenses/MIT). The Code Bank is organized into the following folders. All code is ready for execution, with the exception that code in the **_beta/** directory is still in review and testing.
+The [TIS Lab at EPFL](https://tis.epfl.ch) distributes the [Data Science Code Bank](https://github.com/KenYounge/data-science-code-bank.git) under an open [MIT License](https://opensource.org/licenses/MIT). You may access, download, clone, edit, reuse, and collaborate on these materials without restriction. Please see the [contributing](CONTRIBUTING.md) page if you would like to contribute.  
+
+![](/Users/younge/projects/data-science-code-bank/mit-license.png) ![Open Source Initiative](open-source.png)  ![Creative Commons](creative-commons.png)
+
+
+
+## Overview
+
+The Code Bank is organized into the following folders. All code is ready for execution, with the exception that code in the **_beta/** directory is still in review and testing.
 
 
    * __Illustrations__  
@@ -19,9 +27,7 @@ The [TIS Lab at EPFL](https://tis.epfl.ch) provides open-sourced access to this 
 
       Projects asks students to work through an entire Data Science application. Projects do not require students to program all of it (doing so would not be feasible during the available time in boot camp courses); rather, projects focus attention on discrete portions of code to be completed, while the missing piece is embedded within a longer chain/logical progression of code. 
 
-  * __Workshops__  
-
-      Whereas code from the Illustrations, Demos, Exercises and Projects can be used _a la carte_ to meet the needs of a particular course of instruction, the materials for a workshop combine as a set to cover a particular topic or application in depth.
+       
 
 
 ## Installation & Execution
@@ -46,11 +52,7 @@ The [TIS Lab at EPFL](https://tis.epfl.ch) provides open-sourced access to this 
 
       We often recommend that students use a virtual machine (VM) to run their code. We provide an additional `readme` file in the __vms/__ to help you set up a VM on the [Google Compute Platform](https://cloud.google.com/).
 
-## This is an Open Source Initiative
 
-We distribute this code for free use by the creative commons. You may access, download, clone, edit, reuse, and collaborate on all of the materials in this repository under a free [MIT License](LICENSE). Please see the [contributing](CONTRIBUTING.md) page if you would like to contribute.  
-
-![Open Source Initiative](images/open-source.png)  ![Creative Commons](images/creative-commons.png)</center>
 
 
 
