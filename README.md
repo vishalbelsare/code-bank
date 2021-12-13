@@ -1,6 +1,6 @@
-# Data Science Code Bank  
+# D-Insight Code Bank  
 
-The [TIS Lab at EPFL](https://tis.epfl.ch) distributes the [Data Science Code Bank](https://github.com/KenYounge/data-science-code-bank.git) under an open [MIT License](https://opensource.org/licenses/MIT). You may access, download, clone, edit, reuse, and collaborate on these materials without restriction. Please see the [contributing](CONTRIBUTING.md) page if you would like to contribute.  
+The [TIS Lab at EPFL](https://tis.epfl.ch) distributes the [D-Insight Code Bank](https://github.com/d-insight/code-bank/) under an open [MIT License](https://opensource.org/licenses/MIT). You may access, download, clone, edit, reuse, and collaborate on these materials without restriction.  
 
 ![](mit-license.png) ![Open Source Initiative](open-source.png)  ![Creative Commons](creative-commons.png)
 
