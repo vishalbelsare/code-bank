@@ -43,7 +43,7 @@ All code is ready for execution, except that code in the **/\_development/** and
 
 2. Clone the Code Bank.
 
-    `git clone https://github.com/KenYounge/data-science-code-bank.git`
+    `git clone https://github.com/d-insight/code-bank.git`
     
 3. Install the Python [requirements](REQUIREMENTS.txt).
 
