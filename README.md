@@ -1,28 +1,6 @@
-# Data Science for Managers – Code Bank  
+# Data Science Code Bank  
 
-![DSFM Participants](images/participants.jpg)
-
-
-__Data Science for Managers__ partners with universities and organizations around the world to provide high-quality boot camps, seminars, and workshops in Data Science. 
-
-__DSFM__ courses are currently offered at:
-
-  * __The Swiss Institute of Technology - EPFL__  
-
-    Join DSFM at the École Polytechnique Fédérale de Lausanne (EPFL), part of the Swiss Federal Institute of Technology and one of the leading technical centers in Europe. EPFL is home to over 350 laboratories and research groups, each working at the forefront of science and technology.  
-
-
-  * __The University of Washington - GIX__
-
-    Join DSFM at the Global Innovation Exchange (GIX) in the Seattle, Washington area. Founded by the University of Washington, Tsinghua University, and Microsoft, GIX is a global collaboration between leading academic and cross-sector partners. Courses will be presented at the state-of-the-art Steve Ballmer building in Bellevue, WA.  
-
-  * For more information on DSFM, please visit __[https://www.dsfm.org](https://www.dsfm.org)__
-
-## Code Bank Materials
-
-The DSFM program provides open access to the __Code Bank__ at [https://github.com/dsfm-org/code-bank.git](https://github.com/dsfm-org/code-bank.git) under a free [MIT License](https://opensource.org/licenses/MIT).
-
-The Code Bank is organized into the following folders. All code is ready for execution, with the exception that code in the **_beta/** directory is still in review and testing.
+The [TIS Lab at EPFL](https://tis.epfl.ch) provides open-sourced access to this [Data Science Code Bank](https://github.com/KenYounge/data-science-code-bank.git) under an [MIT License](https://opensource.org/licenses/MIT). The Code Bank is organized into the following folders. All code is ready for execution, with the exception that code in the **_beta/** directory is still in review and testing.
 
 
    * __Illustrations__  
@@ -54,7 +32,7 @@ The Code Bank is organized into the following folders. All code is ready for exe
 
 2. Clone the Code Bank.
 
-    `git clone https://github.com/dsfm-org/code-bank.git`
+    `git clone https://github.com/KenYounge/data-science-code-bank.git`
     
 3. Install the Python [requirements](REQUIREMENTS.txt).
 
@@ -62,15 +40,15 @@ The Code Bank is organized into the following folders. All code is ready for exe
     
     `pip install -r REQUIREMENTS.txt`  
 
-4. Execution  
+4. Execute
 
       Most of the code in the __Code Bank__ runs in [Jupyter Lab](https://jupyter.org/) notebooks. Most notebooks can be run locally (or remotely) on a standard computer with Python 3.x and a basic Anaconda Data Science environment ([see requirements](REQUIREMENTS.txt)). A few advanced examples, however, may require additional memory, processors, GPUs/TCUs, a Spark cluster, or other resources to run. If additional resources are required, it should be noted in the file. 
 
       We often recommend that students use a virtual machine (VM) to run their code. We provide an additional `readme` file in the __vms/__ to help you set up a VM on the [Google Compute Platform](https://cloud.google.com/).
 
-## The DSFM Code Bank is an Open Source Initiative !
+## This is an Open Source Initiative
 
-The [Data Science for Managers Network](https://www.dsfm.org) distributes all of code used in DSFM demos, exercises, illustrations, projects, and workshops for free use by the creative commons. You may access, download, clone, edit, reuse, and collaborate on all of the materials in [this repository](https://github.com/dsfm-org/code-bank.git) under a free [MIT License](LICENSE). Please see the [contributing](CONTRIBUTING.md) page if you would like to contribute back to this initiative.  
+We distribute this code for free use by the creative commons. You may access, download, clone, edit, reuse, and collaborate on all of the materials in this repository under a free [MIT License](LICENSE). Please see the [contributing](CONTRIBUTING.md) page if you would like to contribute.  
 
 ![Open Source Initiative](images/open-source.png)  ![Creative Commons](images/creative-commons.png)</center>
 
