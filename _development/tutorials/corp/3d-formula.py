@@ -1,0 +1,29 @@
+""" -------------------------------------------------------------------------------------------------
+    Formula Value from Excel
+    -------------------------------------------------------------------------------------------------
+    
+    Source:  https://github.com/d-insight/code-bank.git
+    License: MIT License - https://opensource.org/licenses/MIT 
+    
+    -------------------------------------------------------------------------------------------------
+
+"""
+#pip3 install openpyxl
+import openpyxl
+
+#specify the files location (or path)
+#excel_files = ['files path here']
+DIR = 'data/'
+excel_files = [DIR + 'SampleData.xlsx', DIR + 'SampleData2.xlsx']
+
+#loop through the files in the "excel_files" list
+for file in excel_files:
+    wb = openpyxl.load_workbook(file)
+    #locate worksheet
+    worksheet = wb["SalesOrders"]
+    #compute average in G46
+    worksheet['G46'] = '=AVERAGE(G3:G45)'
+    #save the file
+    wb.save(file)
+
+    
